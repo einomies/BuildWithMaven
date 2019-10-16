@@ -5,6 +5,7 @@
 .metadata
 bin/
 tmp/
+target/
 *.tmp
 *.bak
 *.swp
@@ -35,9 +36,6 @@ local.properties
 # PDT-specific (PHP Development Tools)
 .buildpath
 
-# sbteclipse plugin
-.target/
-
 # Tern plugin
 .tern-project
 
@@ -67,7 +65,6 @@ local.properties
 
 # Annotation Processing
 .apt_generated
-
 .sts4-cache/
 
 # End of https://www.gitignore.io/api/eclipse
